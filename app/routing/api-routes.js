@@ -4,7 +4,6 @@ var path 			= require('path');
 
 // API GET Requests - when users "visit" a page. 
 
-// (ex:localhost:PORT/api/admin...they are shown a JSON of the data in the table) 
 
 var totalDifference = 0;
 
