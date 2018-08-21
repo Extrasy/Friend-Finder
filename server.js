@@ -14,8 +14,6 @@ var PORT = process.env.PORT || 3000; // Sets an initial port.
 
 // BodyParser makes it easy for our server to interpret data sent to it.
 
-// The code below is pretty standard.
-
 app.use(bodyParser.json());
 
 app.use(bodyParser.urlencoded({extended: true}));
